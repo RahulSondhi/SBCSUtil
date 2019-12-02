@@ -1,0 +1,94 @@
+/* Controls CSS for every instance of form */
+form {
+    color: white !important;
+}
+
+input[name=email],
+input[name=firstName],
+input[name=lastName],
+input[name=nickname],
+input[name=passwordConfirm],
+input[name=password] {
+    width: 100%;
+    display: inline-block;
+    border: none !important;
+    border-bottom: solid 2px white !important;
+    font-size: 1em;
+    background-color: rgba(0,0,0,0);
+    background: none !important;
+    color: white;
+    transition: 1000ms;
+}
+
+input[name=email]:focus,
+input[name=firstName]:focus,
+input[name=lastName]:focus,
+input[name=nickname]:focus,
+input[name=passwordConfirm]:focus,
+input[name=password]:focus {
+    outline: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: solid 2px var(--light-blue) !important;
+}
+
+/* Icons */
+
+form .ant-input-prefix,
+form .ant-input-suffix i{
+    color: white !important;
+}
+
+/* Error Messages */
+
+form .ant-form-explain{
+    color: #f5222d;
+    text-shadow: 0 0 0.5em var(--maroon), 0 0 0.5em var(--maroon);
+}
+
+/* Labels */
+
+form .ant-form-item-label label{
+    color: white !important;
+    text-align: left;
+    float: left;
+}
+
+form .ant-form-item-label{
+   display: block;
+}
+
+/* Search Bars */
+
+.searchbar .ant-input-group-addon{
+  background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.searchbar button:hover {
+  box-shadow: 0 0 0.5em var(--light-blue)!important;
+  text-shadow: none !important;
+  transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1) !important;
+}
+
+.searchbar input[type=text] {
+    font-size: 1em;
+    border: var(--white) 0.1em solid;
+    border-radius: 0.25em 0.25em 0.25em 0.25em;
+    text-shadow: none;
+    transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+    color: white;
+    background: none!important;
+}
+
+.searchbar input[type=text]:focus {
+    box-shadow: 0 0 0.5em var(--light-blue);
+}
+
+.searchbar{
+    margin-bottom: 3%;
+}
+
+.ant-input-group .ant-input-group-addon .ant-select{
+    color: white !important;
+}

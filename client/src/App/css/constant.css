@@ -1,0 +1,108 @@
+/* Caption Headers */
+
+.caption {
+    font-family: fzshuti;
+    text-shadow: 0 0 0.5em var(--light-blue), 0 0 0.5em var(--light-blue);
+    font-size: 3em;
+    color: var(--white);
+}
+
+.captionRed {
+    font-family: fzshuti;
+    text-shadow: 0 0 0.5em var(--maroon), 0 0 0.5em var(--maroon);
+    font-size: 3em;
+    color: var(--white);
+}
+
+.captionYellow {
+    font-family: fzshuti;
+    text-shadow: 0 0 0.5em var(--brass), 0 0 0.5em var(--brass);
+    font-size: 3em;
+    color: var(--white);
+}
+
+/* Animations */
+@-moz-keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+@keyframes blink {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+/* Adding onto Foundation Grids */
+
+.align-center-middle {
+    text-align: center;
+}
+
+/* Previews */
+
+.previewItem{
+    text-align: left;
+    color: white;
+    min-height: 0;
+}
+
+.previewItem:hover{
+    color: white;
+}
+
+.previewName{
+    font-size: 1.5em;
+}
+
+.previewDesc{
+    font-size: 0.75em;
+}
+
+.previewDesc span{
+    color: var(--brass);
+}
+
+/* Make Prof Pic */
+
+.makeProfPicEditor{
+    margin-bottom: 3%;
+    z-index: 0;
+}
+
+.makeProfPicEditor label{
+    color: white !important;
+}
+
+.makeProfPicEditor path{
+    fill: red;
+}
+
+/* Dynamic Form */
+
+.dynamicInput{
+    margin-bottom: 3%;
+}

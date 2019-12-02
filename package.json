@@ -1,0 +1,41 @@
+{
+  "name": "sbcsutil",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulSondhi/SBCSUtil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RahulSondhi/SBCSUtil/issues"
+  },
+  "homepage": "https://github.com/RahulSondhi/SBCSUtil#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.5",
+    "mongoose": "^5.7.13",
+    "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.1"
+  }
+}

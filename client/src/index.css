@@ -1,0 +1,93 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import '../node_modules/antd/dist/antd.css';
+@font-face {
+    font-family: fzshuti;
+    src: url("./App/fonts/fzshuti.ttf");
+}
+
+/* Variables */
+:root {
+    --crimson: #40110A;
+    --maroon: #800000;
+    --white: #FFFFFF;
+    --light-gray: #444444;
+    --dark-gray: #1c1c1c;
+    --light-blue: #00FFFF;
+    --brass: #B5A624;
+    --bright-red: #B80F0A;
+    --button-hover-shade: rgba(0, 0, 0, 0.5);
+    --background-color: 25, 7, 4;
+    --tab-color: transparent;
+}
+
+/* Repeating HTML Elements */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    color: white !important;
+    background: linear-gradient( rgba(25,7,4, 0.5) 100%, rgba(25,7,4, 0.8)100%),url("./App/assets/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.hidden{
+    display: none !important;
+}
+
+label {
+    color: white;
+    font-size: 1.5em;
+}
+
+.link {
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+.link:hover {
+    color: var(--white);
+    text-decoration: underline;
+    text-shadow: 0 0 0.5em var(--light-blue), 0 0 0.5em var(--light-blue);
+}
+
+.button {
+    font-size: 1em;
+    text-transform: uppercase;
+    border: var(--crimson) 0.1em solid;
+    border-radius: 0.5em;
+    text-shadow: none;
+    transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+    color: var(--white);
+    background: linear-gradient(var(--bright-red), var(--crimson));
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.createButton {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border: var(--brass) 0.1em solid;
+    border-radius: 0.5em;
+    text-shadow: none;
+    color: var(--white);
+    background: linear-gradient(var(--light-gray), var(--dark-gray));
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1.5em;
+}
+.button:hover {
+    border: var(--light-blue) 0.1em solid;
+    text-shadow: 1px 1px 5px var(--light-blue);
+    background-color: var(--button-hover-shade) !important;
+}

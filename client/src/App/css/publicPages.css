@@ -1,0 +1,23 @@
+/* CSS for Public Pages */
+@import url( 'https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+/* General Pages */
+
+#eventPageTitle,
+#organizationPageTitle,
+#userPageTitle {
+    font-size: 3em;
+    margin-bottom: 1%;
+}
+
+.rightSideContainer{
+    max-height: 20rem;
+    overflow-x: hidden;
+    align-content: stretch;
+    overflow-y: visible;
+}
+
+.eventPageDescTitle{
+    margin-top: 8%;
+}
+

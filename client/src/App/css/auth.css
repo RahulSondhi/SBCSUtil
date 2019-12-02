@@ -1,0 +1,19 @@
+/* Controls CSS for login, register, reset, forgot, & confirm */
+
+/* Shared */
+
+.loginHeader {
+    height: auto;
+    width: 40%!important;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* Login */
+
+
+/* Forgot */
+
+#forgotDesc{
+    color: white !important;
+}

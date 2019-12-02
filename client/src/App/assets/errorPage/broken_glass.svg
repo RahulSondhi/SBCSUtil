@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="206" height="184" viewBox="0 0 206 184">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_102" data-name="Rectangle 102" width="206" height="184" transform="translate(799 449.092)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-799 -449.092)" clip-path="url(#clip-path)">
+    <path id="fragile-broken-svgrepo-com" d="M73.869,0,71.664,28.364l15.273-8.907L80.613,88.632,78.368,30.92l-8.814,7.168L64.348,42.33l-.567-7.27L61.056,0H45.209V61.395a57.652,57.652,0,0,0,52.6,57.417v55.164H65.944v10.116h73.84V173.976H107.922V118.813a57.651,57.651,0,0,0,52.6-57.418V0Z" transform="translate(799.212 449)" fill="#b5a624"/>
+  </g>
+</svg>

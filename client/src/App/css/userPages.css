@@ -1,0 +1,59 @@
+/* CSS for User Pages */
+
+/* General */
+
+#userBarsPageTitle,
+#userRecipesPageTitle,
+#userEquipmentPageTitle,
+#createBarPageTitle,
+#createRecipePageTitle,
+#adminPageTitle {
+    font-size: 3em;
+    margin-bottom: 1%;
+}
+
+.ant-tabs{
+  margin-bottom: 2%;
+}
+
+/* Admin Page */
+
+/* Search */
+
+#searchDrinks {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+#searchTitle{
+  margin-top: 5%;
+  font-size: 7em;
+  margin-bottom: 10%;
+}
+
+
+/* Create Bar Page */
+
+.tabsBarForm{
+  margin-bottom: 2%;
+}
+
+
+/* Create Recipe Page */
+.settingsButton{
+  margin-top: 2%;
+}
+
+/* Users Bar Page */
+
+#userBarsPageTitle{
+    margin-bottom: 5%;
+}
+
+/* Users Recipes Page */
+
+/* Error Page */
+.errorCaption {
+    color: white;
+} 
