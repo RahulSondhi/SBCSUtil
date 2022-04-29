@@ -5,7 +5,7 @@
   "dependencies": {
     "@csstools/normalize.css": "github:csstools/normalize.css",
     "antd": "^3.25.0",
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "enumify": "^1.0.4",
     "eslint": "^6.6.0",
     "history": "^4.10.1",
